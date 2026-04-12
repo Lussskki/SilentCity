@@ -16,6 +16,9 @@
     <Filter Include="Source Files\src">
       <UniqueIdentifier>{08c61420-facf-4a10-ae6c-cb39771506f6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\src\include">
+      <UniqueIdentifier>{bcd95dc8-bf96-4031-8b5d-18289ec45df9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
