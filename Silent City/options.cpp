@@ -73,14 +73,16 @@ int Options::run(sf::RenderWindow& window)
 							window.create(desktop, "Silent City", sf::Style::None);
 						}
 						else {
-							// Back to windowed mode
+							
 							window.create(sf::VideoMode({ 1200, 1000 }), "Silent City", sf::Style::Default);
 						}
 
-						// Reset settings after window recreation
+						
 						window.setFramerateLimit(60);
 						refresh(window);
-						std::cout << "Fullscreen toggled: " << (isFullscreen ? "ON" : "OFF") << std::endl;
+
+						
+						break;
 					}
 					else if (selectedIndex == 1) // Back button
 					{
